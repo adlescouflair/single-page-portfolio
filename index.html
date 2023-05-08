@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+<body>
+
+  <header class="flex justify-content-between container">
+
+    <img  class="logo"src="assets/logo.svg" alt="logo">
+    <button class="button button--black">Free Consultation</button>
+  </header>
+  <main >
+    <section class="hero container">
+      <div>
+        <h1>Design solutions made easy</h1>
+      <p>
+        With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+      </p>
+      </div>
+
+     
+    </section>
+
+    <section class="container service-category grid">
+     <div class="border-round bg-galactic-blue graphic-design category-block">
+      <span class="category-name">Graphic Design</span>
+     </div>
+     <div class="border-round bg-summer-yellow ui category-block">
+      <span class="category-name"> UI/UX</span>
+     </div>
+     <div class="border-round bg-pink apps category-block">
+      <span class="category-name"> Apps</span>
+     </div>
+     <div class="border-round bg-cyan photography category-block">
+      <span class="category-name">Photography</span>
+     </div>
+     <div class="border-round bg-light-red illustration category-block">
+      <span class="category-name">Illustrations</span>
+     </div>
+     <div class="border-round bg-dark-purple motion-graphic category-block">
+      <span class="category-name"> Motion Graphics</span>
+     </div>
+    </section>
+
+
+    <section class="about container">
+      <picture>
+        <img src="assets/image-amy.webp">
+      </picture>
+      <div class="about-description">
+        
+          <h2>I’m Amy, and I’d love to work on your next project</h2>
+        <p>
+          I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+          to complete mobile apps. I’m also handy with a camera!
+        </p>
+          <button class="button button--light-red">Free Consultation</button>
+        
+      </div>
+    </section>
+   
+    <section class="work">
+      <h3>My Work</h3>
+     
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+  
+            <div class="swiper-slide"> <img  src="assets/image-slide-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/image-slide-2.jpg" alt=""></div>
+           <div class="swiper-slide"> <img class="current-slide" src="assets/image-slide-3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/image-slide-4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/image-slide-5.jpg" alt=""></div>
+          </div>
+    
+          </div>
+          <div class="carousel-button-wrapper">
+            <button class="carousel-button carousel-button--left bg-black ">
+              <span class="sr-only">Previous Button</span>
+              <img src="assets/icon-arrow-left.svg" alt="">
+            </button>
+            <button class="carousel-button carousel-button--right bg-black">
+              <span class="sr-only">Next Button</span>
+              <img src="assets/icon-arrow-right.svg" alt="">
+            </button>
+          
+    </section>
+
+
+    <section class="book-call grid container align-item-center bg-black text-light-cream border-round ">
+        <div>
+          <h2>Book a call with me</h2>
+
+          <p>  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+            free consultation. Then we can move forward from there.</p>
+        </div>
+        <button class="button button--light-red">Free Consultation</button>
+        
+       
+    </section>
+    
+  </main>
+  <footer class="flex justify-content-between container">
+     <img class="logo" src="assets/logo.svg" alt="logo">
+     <button class="button button--black">Free Consultation</button>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    </footer>
+
+</body>
+</html>
